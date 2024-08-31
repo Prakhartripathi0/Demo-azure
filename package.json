@@ -5,5 +5,5 @@
     "main": "app.js",
     "author": "Prakhar",
     "license": "ISC",
-    "dependencies": {}
+    "dependencies": {"express": "3.x"}
 }
