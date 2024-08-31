@@ -1,6 +1,6 @@
 {
     "name": "Azure-demo-app",
-    "version": "1.0.0", //0.0.1 for starters
+    "version": 1.0.0, //0.0.1 for starters
     "description": "",
     "main": "app.js", // example: app.js , index.js etc
     ,
