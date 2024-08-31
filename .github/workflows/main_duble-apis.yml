@@ -58,8 +58,8 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: 5b6d467d-0892-4b10-8bc7-7b545d46a3b8
-          tenant-id: 2d05766c-52c0-40bc-a87c-2fc94e35057d
+          client-id: c57892a4-3507-4a9e-b69a-fc38b81959ca
+          tenant-id: 5f65ca50-2a5f-41ad-949b-d74b551169a6
           subscription-id: 9a6149ae-fbc2-4144-8eec-f34f1dce8e01
 
       - name: 'Run Azure Functions Action'
