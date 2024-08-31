@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: 'Demo-azure' # set this to the path to your web app project, defaults to the repository root
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '20.x' # set this to the node version to use (supports 8.x, 10.x, 12.x)
 
 jobs:
@@ -58,9 +58,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_B3D77C9854104978AC9118B4416DBEC2 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_9A4CE7F07F1D460386DED77193080D08 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_506BF549D0CC4B5AB6DB8DF8EB3EB9DE }}
+          client-id: c57892a4-3507-4a9e-b69a-fc38b81959ca
+          tenant-id: 5f65ca50-2a5f-41ad-949b-d74b551169a6
+          subscription-id: 9a6149ae-fbc2-4144-8eec-f34f1dce8e01
 
       - name: 'Run Azure Functions Action'
         uses: Azure/functions-action@v1
